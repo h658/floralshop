@@ -1,4 +1,4 @@
-import Headline from "../Font";
+import Headline from "../utilities/Font";
 
 
 export default function Hero(){
@@ -16,7 +16,7 @@ export default function Hero(){
             <button className="bg-pink-500 rounded-full px-14 py-2 text-white text-xl">Order Now</button>
            </div>
 
-            <div><img src="tulip.png" alt="tulip" className="ml-32 -mt-3"/></div>
+            <div><img src="tulip.png" alt="tulip" className="ml-32 -mt-3 brightness-110 "/></div>
 
         </div>
         </>
